@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ширина блока</title>
+    <style type="text/css">
+
+   .wrap {
+    width: 100%; /* Ширина */
+   }
+
+   .sidebar1 {
+    width: 20%; /* Ширина */
+   }
+
+   .footer {
+    width:100%;
+   }
+
+   .content {
+   width:70%;
+   }
+
+   .sidebar1 div{
+    background: #ff3399;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dotted #000;
+    height: 450px;
+   }
+
+   .wrap div {
+    background: #fc0;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+   }
+
+   .footer div {
+    background: #003366;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+   }
+
+   .content div {
+    background: #ff9900;
+    margin-left: -1050px;
+    height:300px;
+    padding: 20px;
+    border: 1px solid #000;
+    float: right;
+   }
+
+  </style>
+</head>
+<body>
+<div class="wrap">
+    <div>Ширина слоя 100%</div>
+</div>
+
+<div class="sidebar1">
+    <div>Здесь будет располагаться меню</div>
+</div>
+
+
+
+<div class="footer">
+    <div>Лента новостей искусства</div>
+</div>
+
+
+</body>
+</html>
