@@ -53,6 +53,36 @@
     float: right;
    }
 
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #b2b2b2;
+}
+
   </style>
 </head>
 <body>
@@ -64,7 +94,18 @@
     <div>Здесь будет располагаться меню</div>
 </div>
 
-
+<nav>
+    <ul class="top-menu">
+        <li><a href="/home/">HOME</a></li>
+        <li class="active">ABOUT US</li>
+        <li><a href="/services/">SERVICES</a></li>
+        <li><a href="/partners/">PARTNERS</a></li>
+        <li><a href="/customers/">CUSTOMERS</a></li>
+        <li><a href="/projects/">PROJECTS</a></li>
+        <li><a href="/careers/">CAREERS</a></li>
+        <li><a href="/contact/">CONTACT</a></li>
+    </ul>
+</nav>
 
 <div class="footer">
     <div>Лента новостей искусства</div>
